@@ -63,8 +63,8 @@ public class APCalendar
     int start = firstDayOfYear(year);
     while (days > 0) {
       start++;
-      if (start > 7) {
-        start = 1;
+      if (start > 6) {
+        start = 0;
       }
       days--;
     }
