@@ -61,7 +61,7 @@ public class APCalendar
     /* to be implemented in part (b) */
     int days = dayOfYear(month, day, year);
     int start = firstDayOfYear(year);
-    while (days > 0) {
+    while (days > 1) {
       start++;
       if (start > 6) {
         start = 0;
